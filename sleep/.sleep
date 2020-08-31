@@ -1,0 +1,13 @@
+#!/usr/bin/osascript
+
+tell application "Google Chrome"
+	try
+		quit application
+	end try
+end tell
+
+tell application "Finder"
+	try
+		empty trash
+	end try
+end tell
